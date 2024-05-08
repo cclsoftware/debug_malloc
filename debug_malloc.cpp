@@ -145,7 +145,7 @@
 #if NVWA_WINDOWS
 #define _DEBUG_NEW_FILENAME_LEN 0
 #else
-#define _DEBUG_NEW_FILENAME_LEN 108
+#define _DEBUG_NEW_FILENAME_LEN 200 // keep new_ptr_list_t within 256 bytes
 #endif
 #endif
 
